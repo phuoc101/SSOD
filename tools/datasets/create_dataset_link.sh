@@ -29,10 +29,10 @@ cd ../..
 print('finish coco dataset')
 
 # 2. voc
-print('create voc dataset symlink: ')
-create_folder('voc')
-cd voc
-ln -s @(prefix_voc)/voc/12/VOCdevkit/* .
-ln -s @(prefix_voc)/voc/07/VOCdevkit/* .
-cd ../..
-print('finish voc dataset')
+# print('create voc dataset symlink: ')
+# create_folder('voc')
+# cd voc
+# ln -s @(prefix_voc)/voc/12/VOCdevkit/* .
+# ln -s @(prefix_voc)/voc/07/VOCdevkit/* .
+# cd ../..
+# print('finish voc dataset')
